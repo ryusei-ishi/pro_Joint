@@ -384,3 +384,186 @@ header
     }
   }
 }
+
+/* ----------------------------------------- 
+page_footer
+  ------------------------------------------ */
+.waku00{
+    background: #F4F4F4;
+    height: 75px;
+}
+.page_footer{
+    .waku01{
+        position: relative;
+        z-index: 1;
+        padding: 70px 10%;
+        height: 365px;
+        background: #E9E9E9;
+        @media screen and (max-width:900px) {
+            height: 500px;
+            padding: 0 10%;
+        }
+        .news{
+            position: absolute;
+            top: -75px;
+            left: 15%;
+            z-index: 2;
+            width: 300px;
+            height: 300px;
+            background-image: url(/image/001.svg);
+            @media screen and (max-width:1200px) {
+                left: 10%;
+            }
+            @media screen and (max-width:1000px) {
+                left: 5%;
+            }
+            @media screen and (max-width:900px) {
+                top: -30px;
+                left: 0;
+                width: 40%;
+                height: 65%;
+                display: flex; 
+            }
+            @media screen and (max-width:750px) {
+                top: -30px;
+                left: 0;
+                width: 45%;
+                height: 65%;
+                display: flex; 
+            }
+            @media screen and (max-width:650px) {
+                top: -30px;
+                left: 0;
+                width: 50%;
+                height: 65%;
+                display: flex; 
+            }
+            @media screen and (max-width:550px) {
+                top: -30px;
+                left: 0;
+                width: 60%;
+                height: 65%;
+                display: flex; 
+            }
+            .icon{
+                padding: 2em;
+                @media screen and (max-width:900px) {
+                    padding-top: 10em;
+                    padding-left: 17em;
+                    padding-right: 0;
+                }
+                @media screen and (max-width:550px) {
+                    padding-top: 10em;
+                    padding-left: 14em;
+                    padding-right: 0;
+                }
+                @media screen and (max-width:450px) {
+                    padding-top: 10em;
+                    padding-left: 10em;
+                    padding-right: 0;
+                }
+                i{
+                    font-size: 12px;
+                    &:last-child{
+                        margin-left: 1em;
+                        @media screen and (max-width:900px) {
+                            margin-left: 0;
+                        }
+                    }
+                    @media screen and (max-width:900px) {
+                        display: block;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            h2{
+                padding-left: .7em;
+                font-size: 36px;
+                font-family: "EB Garamond","Times New Roman","ＭＳ 明朝","MS Mincho","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","メイリオ",meiryo,serif;;
+                letter-spacing: 1.8px;
+                writing-mode: vertical-rl;
+                @media screen and (max-width:900px) {
+                    padding-top: 4.22em;
+                    padding-left: .5em;
+                    writing-mode: horizontal-tb;
+                }
+
+            }
+
+        }
+        .cont{
+            position: relative;
+            margin-left: 40%;
+            @media screen and (max-width:900px) {
+                padding-top: 350px;
+                margin-left: 0;
+            }
+            @media screen and (max-width:900px) {
+                padding-top: 320px;
+                margin-left: 0;
+            }
+            a{
+                margin-bottom: 1em;
+                display: block;
+                display: flex;
+                text-decoration: none;
+                color: rgb(32, 32, 32);
+                font-size: 12px;
+                letter-spacing: 1.2px;
+                line-height: 19.38px;
+                font-family: "Noto Sans JP","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",meiryo,"ＭＳ Ｐゴシック",sans-serif;
+                @media screen and (max-width:900px) {
+                    margin-bottom: 2em;
+                }
+                @media screen and (max-width:450px) {
+                    margin-bottom: 1em;
+                    font-size: 10px;
+                    display: block;
+                }
+                .date{
+                    margin-right: 2em;
+                }
+            }
+            .itiran{
+                position: absolute;
+                bottom: -50px;
+                right: 0;
+                margin-left: auto;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .waku02{
+        padding: 0 5% 0 20%;
+        height: 160px;
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width:900px) {
+            display: block;
+            padding: 0;
+        }
+        .media{
+            line-height: 160px;
+            @media screen and (max-width:900px) {
+                text-align: center;
+                line-height: 80px;
+            }
+            i{
+                margin-right: 1em;
+                font-size: 20px;
+                color: #4b4b4b;
+            }
+        }
+        .copy{
+            line-height: 160px;
+            color: #4b4b4b;
+            font-size: 10px;
+            @media screen and (max-width:900px) {
+                text-align: center;
+                line-height: 80px;
+            }
+        }
+    }
+}
