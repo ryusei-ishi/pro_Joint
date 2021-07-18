@@ -1,3 +1,644 @@
-h1 {
-  color: #000;
+@charset "UTF-8";
+/*----------------------------------------- 
+ LP_01（機能性と美しさを両立したマスク）
+------------------------------------------*/
+.LP_01 {
+  padding-top: 30px;
+  background: #f4f4f4;
+}
+
+.LP_01 .wrapper {
+  padding: 0 109px 0 327px;
+  max-width: 1280px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper {
+    padding: 0;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper {
+    display: block;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_01 {
+  width: 228px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_01 {
+    margin: 0 auto;
+    width: 207px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_01 img {
+  width: 100%;
+  height: 272px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_01 img {
+    height: 247px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_01 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_01 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_01 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_01 .wrapper .img_wrapper .img_02 {
+  width: 228px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_02 {
+    margin: 30px auto;
+    width: 207px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_02 img {
+  width: 100%;
+  height: 272px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_02 img {
+    height: 247px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_02 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_02 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_02 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_01 .wrapper .img_wrapper .img_03 {
+  width: 228px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_03 {
+    margin: 0 auto;
+    width: 207px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_03 img {
+  width: 100%;
+  height: 272px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_03 img {
+    height: 247px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_03 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .img_wrapper .img_03 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_01 .wrapper .img_wrapper .img_03 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_01 .wrapper .text_wrapper {
+  padding-top: 65px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .text_wrapper {
+    padding: 0 8%;
+    margin-top: 50px;
+    display: block;
+  }
+}
+
+.LP_01 .wrapper .text_wrapper .box_text {
+  width: 327px;
+}
+
+.LP_01 .wrapper .text_wrapper .box_text h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.636;
+  letter-spacing: 0.075em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .text_wrapper .box_text h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+.LP_01 .wrapper .text_wrapper .box {
+  width: 408px;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .text_wrapper .box {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+.LP_01 .wrapper .text_wrapper .box p {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 2;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .text_wrapper .box p {
+    letter-spacing: 0.01em;
+  }
+}
+
+.LP_01 .wrapper .text_wrapper .box a {
+  margin-top: 35px;
+  padding: 11px 0;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  border: 1px solid #202020;
+  color: #202020;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 768px) {
+  .LP_01 .wrapper .text_wrapper .box a {
+    margin: 22px auto;
+    padding: 9px 0;
+  }
+}
+
+/*----------------------------------------- 
+    LP_02（マスクスプレー）
+  ------------------------------------------*/
+.LP_02 {
+  padding-top: 30px;
+  background: #f4f4f4;
+}
+
+.LP_02 .wrapper_02 {
+  padding: 0 109px 0 327px;
+  max-width: 1280px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 {
+    padding: 0;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 {
+    display: block;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_04 {
+  width: 299px;
+  margin-right: 28px;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 .img_04 {
+    margin: 0 auto;
+    width: 270px;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_04 img {
+  width: 100%;
+  height: 299px;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 .img_04 img {
+    height: 270px;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_04 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 .img_04 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_04 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_05 {
+  width: 299px;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 .img_05 {
+    margin: 30px auto;
+    width: 270px;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_05 img {
+  width: 100%;
+  height: 299px;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 .img_05 img {
+    height: 270px;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_05 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .img_wrapper_02 .img_05 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_02 .wrapper_02 .img_wrapper_02 .img_05 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_02 .wrapper_02 .text_wrapper {
+  padding-top: 65px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .text_wrapper {
+    padding: 0 8%;
+    margin-top: 50px;
+    display: block;
+  }
+}
+
+.LP_02 .wrapper_02 .text_wrapper .box_text {
+  width: 327px;
+}
+
+.LP_02 .wrapper_02 .text_wrapper .box_text h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.636;
+  letter-spacing: 0.075em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .text_wrapper .box_text h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+.LP_02 .wrapper_02 .text_wrapper .box {
+  width: 408px;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .text_wrapper .box {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+.LP_02 .wrapper_02 .text_wrapper .box p {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 2;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .text_wrapper .box p {
+    letter-spacing: 0.01em;
+  }
+}
+
+.LP_02 .wrapper_02 .text_wrapper .box a {
+  margin-top: 35px;
+  padding: 11px 0;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  border: 1px solid #202020;
+  color: #202020;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 768px) {
+  .LP_02 .wrapper_02 .text_wrapper .box a {
+    margin: 22px auto;
+    padding: 9px 0;
+  }
+}
+
+/*----------------------------------------- 
+    LP_0３（抗菌ポーチ）
+  ------------------------------------------*/
+.LP_03 {
+  padding-top: 30px;
+  background: #f4f4f4;
+}
+
+.LP_03 .wrapper_03 {
+  padding: 0 109px 0 327px;
+  max-width: 1280px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 {
+    padding: 0;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 {
+    display: block;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_06 {
+  width: 299px;
+  margin-right: 28px;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 .img_06 {
+    margin: 0 auto;
+    width: 270px;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_06 img {
+  width: 100%;
+  height: 299px;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 .img_06 img {
+    height: 270px;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_06 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 .img_06 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_06 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_07 {
+  width: 299px;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 .img_07 {
+    margin: 30px auto;
+    width: 270px;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_07 img {
+  width: 100%;
+  height: 299px;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 .img_07 img {
+    height: 270px;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_07 figcaption {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .img_wrapper_03 .img_07 figcaption {
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+.LP_03 .wrapper_03 .img_wrapper_03 .img_07 figcaption span {
+  display: block;
+  color: #6c6c6a;
+  font-size: 10px;
+  letter-spacing: 0.03em;
+}
+
+.LP_03 .wrapper_03 .text_wrapper {
+  padding-top: 65px;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .text_wrapper {
+    padding: 0 8%;
+    margin-top: 50px;
+    display: block;
+  }
+}
+
+.LP_03 .wrapper_03 .text_wrapper .box_text {
+  width: 327px;
+}
+
+.LP_03 .wrapper_03 .text_wrapper .box_text h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.636;
+  letter-spacing: 0.075em;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .text_wrapper .box_text h3 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+
+.LP_03 .wrapper_03 .text_wrapper .box {
+  width: 408px;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .text_wrapper .box {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+.LP_03 .wrapper_03 .text_wrapper .box p {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  line-height: 2;
+  color: #202020;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .text_wrapper .box p {
+    letter-spacing: 0.01em;
+  }
+}
+
+.LP_03 .wrapper_03 .text_wrapper .box a {
+  margin-top: 35px;
+  padding: 11px 0;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  border: 1px solid #202020;
+  color: #202020;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 768px) {
+  .LP_03 .wrapper_03 .text_wrapper .box a {
+    margin: 22px auto;
+    padding: 9px 0;
+  }
 }

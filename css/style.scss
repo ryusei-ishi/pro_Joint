@@ -1,3 +1,472 @@
-h1{
-    color: #000;
-}
+/*----------------------------------------- 
+ LP_01（機能性と美しさを両立したマスク）
+------------------------------------------*/
+.LP_01 {
+    padding-top: 30px;
+    background: #f4f4f4;
+    .wrapper {
+      padding: 0 109px 0 327px;
+      max-width: 1280px;
+      margin: 0 auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3",
+        "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック",
+        sans-serif;
+      @media (max-width: 768px) {
+        padding: 0;
+      }
+      .img_wrapper {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        font-size: 11px;
+        @media (max-width: 768px) {
+          display: block;
+        }
+        .img_01 {
+          width: 228px;
+          @media (max-width: 768px) {
+            margin: 0 auto;
+            width: 207px;
+          }
+          img {
+            width: 100%;
+            height: 272px;
+            @media (max-width: 768px) {
+              height: 247px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            -webkit-font-smoothing: antialiased;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+        .img_02 {
+          width: 228px;
+          @media (max-width: 768px) {
+            margin: 30px auto;
+            width: 207px;
+          }
+          img {
+            width: 100%;
+            height: 272px;
+            @media (max-width: 768px) {
+              height: 247px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+        .img_03 {
+          width: 228px;
+          @media (max-width: 768px) {
+            margin: 0 auto;
+            width: 207px;
+          }
+          img {
+            width: 100%;
+            height: 272px;
+            @media (max-width: 768px) {
+              height: 247px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+      }
+      .text_wrapper {
+        padding-top: 65px;
+        display: flex;
+        @media (max-width: 768px) {
+          padding: 0 8%;
+          margin-top: 50px;
+          display: block;
+        }
+        .box_text {
+          width: 327px;
+          h3 {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.636;
+            letter-spacing: 0.075em;
+            color: #202020;
+            @media (max-width: 768px) {
+              font-size: 20px;
+              line-height: 1.5;
+            }
+          }
+        }
+        .box {
+          width: 408px;
+          @media (max-width: 768px) {
+            margin-top: 15px;
+            width: 100%;
+          }
+          p {
+            font-size: 13px;
+            letter-spacing: 0.05em;
+            line-height: 2;
+            color: #202020;
+            @media (max-width: 768px) {
+              letter-spacing: 0.01em;
+            }
+          }
+          a {
+            margin-top: 35px;
+            padding: 11px 0;
+            width: 192px;
+            display: flex;
+            justify-content: center;
+            font-size: 13px;
+            border: 1px solid #202020;
+            color: #202020;
+            letter-spacing: 0.06em;
+            @media (max-width: 768px) {
+              margin: 22px auto;
+              padding: 9px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /*----------------------------------------- 
+    LP_02（マスクスプレー）
+  ------------------------------------------*/
+  .LP_02 {
+    padding-top: 30px;
+    background: #f4f4f4;
+    .wrapper_02 {
+      padding: 0 109px 0 327px;
+      max-width: 1280px;
+      margin: 0 auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3",
+        "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック",
+        sans-serif;
+      @media (max-width: 768px) {
+        padding: 0;
+      }
+      .img_wrapper_02 {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        font-size: 11px;
+        @media (max-width: 768px) {
+          display: block;
+        }
+        .img_04 {
+          width: 299px;
+          margin-right: 28px;
+          @media (max-width: 768px) {
+            margin: 0 auto;
+            width: 270px;
+          }
+          img {
+            width: 100%;
+            height: 299px;
+            @media (max-width: 768px) {
+              height: 270px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            -webkit-font-smoothing: antialiased;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+        .img_05 {
+          width: 299px;
+          @media (max-width: 768px) {
+            margin: 30px auto;
+            width: 270px;
+          }
+          img {
+            width: 100%;
+            height: 299px;
+            @media (max-width: 768px) {
+              height: 270px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+      }
+      .text_wrapper {
+        padding-top: 65px;
+        display: flex;
+        @media (max-width: 768px) {
+          padding: 0 8%;
+          margin-top: 50px;
+          display: block;
+        }
+        .box_text {
+          width: 327px;
+          h3 {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.636;
+            letter-spacing: 0.075em;
+            color: #202020;
+            @media (max-width: 768px) {
+              font-size: 20px;
+              line-height: 1.5;
+            }
+          }
+        }
+        .box {
+          width: 408px;
+          @media (max-width: 768px) {
+            margin-top: 15px;
+            width: 100%;
+          }
+          p {
+            font-size: 13px;
+            letter-spacing: 0.05em;
+            line-height: 2;
+            color: #202020;
+            @media (max-width: 768px) {
+              letter-spacing: 0.01em;
+            }
+          }
+          a {
+            margin-top: 35px;
+            padding: 11px 0;
+            width: 192px;
+            display: flex;
+            justify-content: center;
+            font-size: 13px;
+            border: 1px solid #202020;
+            color: #202020;
+            letter-spacing: 0.06em;
+            @media (max-width: 768px) {
+              margin: 22px auto;
+              padding: 9px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /*----------------------------------------- 
+    LP_0３（抗菌ポーチ）
+  ------------------------------------------*/
+  .LP_03 {
+    padding-top: 30px;
+    background: #f4f4f4;
+    .wrapper_03 {
+      padding: 0 109px 0 327px;
+      max-width: 1280px;
+      margin: 0 auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3",
+        "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック",
+        sans-serif;
+      @media (max-width: 768px) {
+        padding: 0;
+      }
+      .img_wrapper_03 {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        font-size: 11px;
+        @media (max-width: 768px) {
+          display: block;
+        }
+        .img_06 {
+          width: 299px;
+          margin-right: 28px;
+          @media (max-width: 768px) {
+            margin: 0 auto;
+            width: 270px;
+          }
+          img {
+            width: 100%;
+            height: 299px;
+            @media (max-width: 768px) {
+              height: 270px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            -webkit-font-smoothing: antialiased;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+        .img_07 {
+          width: 299px;
+          @media (max-width: 768px) {
+            margin: 30px auto;
+            width: 270px;
+          }
+          img {
+            width: 100%;
+            height: 299px;
+            @media (max-width: 768px) {
+              height: 270px;
+            }
+          }
+          figcaption {
+            margin-top: 20px;
+            text-align: right;
+            line-height: 1.5em;
+            letter-spacing: 0.1em;
+            color: #202020;
+            @media (max-width: 768px) {
+              text-align: center;
+              margin-top: 12px;
+            }
+            span {
+              display: block;
+              color: #6c6c6a;
+              font-size: 10px;
+              letter-spacing: 0.03em;
+            }
+          }
+        }
+      }
+      .text_wrapper {
+        padding-top: 65px;
+        display: flex;
+        @media (max-width: 768px) {
+          padding: 0 8%;
+          margin-top: 50px;
+          display: block;
+        }
+        .box_text {
+          width: 327px;
+          h3 {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 1.636;
+            letter-spacing: 0.075em;
+            color: #202020;
+            @media (max-width: 768px) {
+              font-size: 20px;
+              line-height: 1.5;
+            }
+          }
+        }
+        .box {
+          width: 408px;
+          @media (max-width: 768px) {
+            margin-top: 15px;
+            width: 100%;
+          }
+          p {
+            font-size: 13px;
+            letter-spacing: 0.05em;
+            line-height: 2;
+            color: #202020;
+            @media (max-width: 768px) {
+              letter-spacing: 0.01em;
+            }
+          }
+          a {
+            margin-top: 35px;
+            padding: 11px 0;
+            width: 192px;
+            display: flex;
+            justify-content: center;
+            font-size: 13px;
+            border: 1px solid #202020;
+            color: #202020;
+            letter-spacing: 0.06em;
+            @media (max-width: 768px) {
+              margin: 22px auto;
+              padding: 9px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  
