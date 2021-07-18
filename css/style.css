@@ -421,7 +421,7 @@ header
 page_footer
   ------------------------------------------ */
 .waku00 {
-  background: #F4F4F4;
+  background: #f4f4f4;
   height: 75px;
 }
 
@@ -430,7 +430,7 @@ page_footer
   z-index: 1;
   padding: 70px 10%;
   height: 365px;
-  background: #E9E9E9;
+  background: #e9e9e9;
 }
 
 @media screen and (max-width: 900px) {
@@ -552,9 +552,9 @@ page_footer
 }
 
 .page_footer .waku01 .news h2 {
-  padding-left: .7em;
+  padding-left: 0.7em;
   font-size: 36px;
-  font-family: "EB Garamond","Times New Roman","ＭＳ 明朝","MS Mincho","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","メイリオ",meiryo,serif;
+  font-family: "EB Garamond", "Times New Roman", "ＭＳ 明朝", "MS Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", meiryo, serif;
   letter-spacing: 1.8px;
   writing-mode: vertical-rl;
 }
@@ -562,7 +562,7 @@ page_footer
 @media screen and (max-width: 900px) {
   .page_footer .waku01 .news h2 {
     padding-top: 4.22em;
-    padding-left: .5em;
+    padding-left: 0.5em;
     writing-mode: horizontal-tb;
   }
 }
@@ -595,7 +595,7 @@ page_footer
   font-size: 12px;
   letter-spacing: 1.2px;
   line-height: 19.38px;
-  font-family: "Noto Sans JP","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",meiryo,"ＭＳ Ｐゴシック",sans-serif;
+  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
 
 @media screen and (max-width: 900px) {
